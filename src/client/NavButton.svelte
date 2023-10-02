@@ -4,19 +4,19 @@
   export let titleName = '';
 </script>
 
-<div class="card">
+<div class="nav-button">
   <Title title={titleName} />
 </div>
 
 <style>
-  .card {
+  .nav-button {
     margin: 0 10px;
     padding: 5px 10px;
-    border: 0.1em solid magenta;
+    border: 0.1em solid #91c9ad;
     border-radius: 5px;
   }
 
-  .card:hover {
+  .nav-button:hover {
     background-color: #E0E2E1;
   }
 </style>
