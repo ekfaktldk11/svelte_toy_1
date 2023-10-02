@@ -1,29 +1,25 @@
 <script lang="ts">
-  import Title from "./Title.svelte";
-
   export let num = "";
 </script>
 
-<div class="main-container">
+<div class="container">
   <p class="bulletin-num">#{parseInt(num)}</p>
-  <div class="title-container">
-    <h2>Given words</h2>
-  </div>
+  <h2>Given words</h2>
 </div>
 
 <style>
-  .main-container {
-    display: inherit;
+  .container {
+    display: flex;
     flex-direction: row;
-    margin: 0.4em;
+    margin: 0.2em 0.1rem;
     padding: 5px 10px;
-    border: 0.1em solid magenta;
+    border: 0.1em solid #91c9ad;
     border-radius: 5px;
-    width: 20em;
-    height: 10em;
+    width: 30vw;
+    height: 30vh;
   }
 
-  .main-container:hover {
+  .container:hover {
     background-color: #E0E2E1;
   }
 
@@ -34,7 +30,9 @@
 
   h2 {
     position: relative;
+    margin-top: 0;
     top: 0;
-    font-size: 1.5em;
+    left: 1rem;
+    font-size: 1.2em;
   }
 </style>
