@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   // import TextInput from "./TextInput.svelte";
   import Title from "./Title.svelte";
   export let titleName = '';
